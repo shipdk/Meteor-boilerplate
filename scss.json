@@ -1,0 +1,8 @@
+{
+  "includePaths": [
+    ".meteor/local/bower",
+    ".meteor/local/bower/node-bourbon/assets/stylesheets",
+    ".meteor/local/bower/neat/app/assets/stylesheets"
+  ],
+  "enableAutoprefixer": true
+}
