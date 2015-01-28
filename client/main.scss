@@ -1,4 +1,20 @@
-@import "bourbon/bourbon"; 
-body {
-  @include linear-gradient(to top, red, crimson);
+@import "init";
+
+
+
+.wrapper {
+  @include outer-container;
+}
+
+.column--half {
+  padding: 10px 20px;
+  @include transition(all 0.2s ease-in-out);
+  @include span-columns(6);
+  background: #009688;
+  @include media($tablet) {
+    @include span-columns(12); 
+  }
+  &:hover {
+    background: #b2dfdb;
+  }
 }

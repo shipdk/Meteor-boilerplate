@@ -1,0 +1,28 @@
+@import "bourbon/bourbon";
+@import "neat/neat-helpers";
+/* GRID GOES HER */
+
+// Change the grid settings
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: em(1088);
+
+// Toggle to false to hide grid.
+$visual-grid: true;
+
+// Define your breakpoints
+$wide: new-breakpoint(max-width 1260px 12);
+$desktop: new-breakpoint(max-width 900px 12);
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
+
+@import "neat/neat";
+
+
+/* VARIABLES */ 
+
+
+
+
