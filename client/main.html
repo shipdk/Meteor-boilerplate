@@ -17,12 +17,18 @@
       <h1>Hello world</h1>
       <p>This package is made by <a href="http://www.designmonkey.dk" target="_blank">designmonkey.dk</a></p>
     </div>
+    
+    <div class="posts">
+      {{#each Posts }}
+        <div class="column--half">
+          {{>post }}
+        </div>
+      {{/each}}
+    </div>
 
-    {{#each Posts }}
-      <div class="column--half">
-        {{>post }}
-      </div>
-    {{/each}}
+    <div class="form">
+      {{> quickForm collection="Posts"  type="insert"}}
+    </div>
   </div>
 
 </template>

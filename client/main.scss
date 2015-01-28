@@ -14,11 +14,15 @@
   }
 }
 
+.posts {
+  @include clearfix;
+}
+
 .column--half {
   padding: 10px 20px;
   @include transition(all 0.2s ease-in-out);
   @include span-columns(6);
-  @include omega(3n);
+  @include omega(2n);
   margin-bottom: 20px;
   background: #b2dfdb;
   @include media($tablet) {
@@ -27,4 +31,8 @@
   &:hover {
     background: #009688;
   }
+}
+
+.form {
+
 }
