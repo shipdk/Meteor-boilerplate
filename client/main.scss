@@ -6,17 +6,25 @@
   @include outer-container;
 }
 
+.hero {
+  text-align: center;
+  margin: 40px 0;
+  h1 {
+    font-size: $base-font-size * 5;
+  }
+}
+
 .column--half {
   padding: 10px 20px;
   @include transition(all 0.2s ease-in-out);
   @include span-columns(6);
-  @include omega(2n);
+  @include omega(3n);
   margin-bottom: 20px;
-  background: #009688;
+  background: #b2dfdb;
   @include media($tablet) {
-    @include span-columns(12); 
+    @include span-columns(8); 
   }
   &:hover {
-    background: #b2dfdb;
+    background: #009688;
   }
 }
