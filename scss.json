@@ -2,7 +2,10 @@
   "includePaths": [
     ".meteor/local/bower",
     ".meteor/local/bower/node-bourbon/assets/stylesheets",
-    ".meteor/local/bower/neat/app/assets/stylesheets"
+    ".meteor/local/bower/neat/app/assets/stylesheets",
+    ".meteor/local/build/programs/server/assets/packages/wolves_bourbon",
+    ".meteor/local/build/programs/server/assets/packages/wolves_neat",
+    ".meteor/local/build/programs/server/assets/packages/wolves_bitters" 
   ],
   "enableAutoprefixer": true
 }

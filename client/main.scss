@@ -1,0 +1,38 @@
+@import "init";
+
+
+
+.wrapper {
+  @include outer-container;
+}
+
+.hero {
+  text-align: center;
+  margin: 40px 0;
+  h1 {
+    font-size: $base-font-size * 5;
+  }
+}
+
+.posts {
+  @include clearfix;
+}
+
+.column--half {
+  padding: 10px 20px;
+  @include transition(all 0.2s ease-in-out);
+  @include span-columns(6);
+  @include omega(2n);
+  margin-bottom: 20px;
+  background: #b2dfdb;
+  @include media($tablet) {
+    @include span-columns(8); 
+  }
+  &:hover {
+    background: #009688;
+  }
+}
+
+.form {
+
+}
