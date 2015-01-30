@@ -25,8 +25,8 @@
   @include omega(2n);
   margin-bottom: 20px;
   background: #b2dfdb;
-  @include media($tablet) {
-    @include span-columns(8); 
+  @include mq($until: tablet) {
+    @include span-columns(12);
   }
   &:hover {
     background: #009688;
