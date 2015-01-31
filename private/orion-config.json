@@ -95,27 +95,27 @@
         "files" : [
           "private/templates/html/module.html",
           "private/templates/js/module.js",
-          "private/templates/less/module.less"
+          "private/templates/scss/module.scss"
         ]
       },
       "es6" : {
         "files" : [
           "private/templates/html/module.html",
           "private/templates/js/module.next.js",
-          "private/templates/less/module.less"
+          "private/templates/scss/module.scss"
         ]
       },
       "coffee" : {
         "files" : [
           "private/templates/html/module.html",
           "private/templates/coffee/module.coffee",
-          "private/templates/less/module.less"
+          "private/templates/scss/module.scss"
         ]
       }
     },
-    "less" : {
+    "scss" : {
       "default" : {
-        "desc" : "Less Stylesheet for general and additional styles",
+        "desc" : "scss Stylesheet for general and additional styles",
         "variables" : [
           {
             "name" : "stylesheetName",
@@ -123,7 +123,7 @@
           }
         ],
         "files" : [
-          "private/templates/less/stylesheet.less"
+          "private/templates/scss/stylesheet.scss"
         ]
       }
     },
@@ -154,40 +154,6 @@
           "private/templates/html/common.html"
         ]
       }
-    }
-  },
-  "reset" : {
-    "default" : {
-      "remove" : [
-        "models", "client/modules",
-        "client/stylesheets/home.less", "client/stylesheets/header.less",
-        "client/stylesheets/main.less", "client/views", "routes", "client/config/router.js"
-      ],
-      "files" : [
-        "private/templates/reset/home.html",
-        "private/templates/reset/layout.html",
-        "private/templates/reset/routerConfig.js",
-        "private/templates/reset/mainRoutes.js",
-        "private/templates/reset/main.less"
-      ]
-    },
-    "es6" : {
-      "files" : [
-        "private/templates/reset/home.html",
-        "private/templates/reset/layout.html",
-        "private/templates/reset/routerConfig.next.js",
-        "private/templates/reset/mainRoutes.next.js",
-        "private/templates/reset/main.less"
-      ]
-    },
-    "coffee" : {
-      "files" : [
-        "private/templates/reset/home.html",
-        "private/templates/reset/layout.html",
-        "private/templates/reset/routerConfig.coffee",
-        "private/templates/reset/mainRoutes.coffee",
-        "private/templates/reset/main.less"
-      ]
     }
   }
 }
