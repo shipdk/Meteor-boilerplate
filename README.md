@@ -1,7 +1,8 @@
 Meteor-startup-package
 ======================
 
-Startup package for Meteor.js.
+
+Startup package for Meteor.js. 
 
 > Note: Bourbon will fail after a reset. To fix this, just restart Meteor.
 
@@ -17,6 +18,7 @@ Startup package for Meteor.js.
 
 
 Added Orion-Cli
+
 ```bash
 orion generate view
 ```
@@ -60,7 +62,7 @@ https://atmospherejs.com/reywood/iron-router-ga
 * SEO:
 https://atmospherejs.com/manuelschoebel/ms-seo
 
-* "require.js-ish":
+* "require.js-ish": 
 https://github.com/DerMambo/wait-on-lib
 
 ## Considerations
@@ -79,7 +81,7 @@ Installed the following in a feature branch for future work:
 * https://github.com/Benvie/harmony-collections
 
 Other installed and failed packages is as follows:
-* https://atmospherejs.com/sharlon/6to5
+* https://atmospherejs.com/sharlon/6to5 
 * https://atmospherejs.com/matteodem/traceur
 
 ### Admins
