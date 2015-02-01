@@ -26,7 +26,11 @@
   margin-bottom: 20px;
   background: #b2dfdb;
   @include mq($until: tablet) {
+<<<<<<< HEAD
     @include span-columns(12);
+=======
+    @include span-columns(12); 
+>>>>>>> 276bee249228463880cc9d2d788e9f8d9bc90514
   }
   &:hover {
     background: #009688;
