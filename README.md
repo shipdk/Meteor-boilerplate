@@ -11,11 +11,14 @@ Startup package for Meteor.js.
 * fourseven:scss
 * iron:router
 * zimme:iron-router-active
+* okgrow:iron-router-autoscroll
+* sewdn:collection-behaviours 
+* sharlon:6to5  
 * mquandalle:bower
 * wolves:bourbon
 * wolves:neat
 * wolves:bitters
-* sharlon:6to5 
+
 
 
 #Added Orion-Cli
