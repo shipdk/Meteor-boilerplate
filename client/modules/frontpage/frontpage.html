@@ -1,15 +1,13 @@
 <template name="frontpage">
   <div class="wrapper">
     <div class="hero">
-      <h1>Hello world</h1>
-      <p>This package is made by <a href="http://www.designmonkey.dk" target="_blank">designmonkey.dk</a></p>
+      <h1>Ship boilerplate</h1>
+      <p>This package is made by Ship</p>
     </div>
     
-    <div class="posts">
+    <div class="grid-items">
       {{#each this}}
-        <div class="column--half">
-          {{>post }}
-        </div>
+        {{> grid}}
       {{/each}}
     </div>
 

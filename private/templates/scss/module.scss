@@ -1,2 +1,6 @@
-/* { "path" : "client/modules/__moduleName__/__moduleName__.less" } */
-@import "init";
+/* { "path" : "client/modules/__moduleName__/__moduleName__.scss" } */
+/*------------------------------------*\
+    #__moduleName__
+\*------------------------------------*/
+
+@import "../../init";

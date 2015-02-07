@@ -1,2 +1,5 @@
-/* { "path" : "client/stylesheets/__stylesheetName__.less" } */
-@import "init";
+/* { "path" : "client/stylesheets/__stylesheetName__.scss" } */
+/*------------------------------------*\
+    #__moduleName__
+\*------------------------------------*/
+@import "../../init";
