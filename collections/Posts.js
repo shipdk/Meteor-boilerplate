@@ -15,11 +15,12 @@ Schemas.Posts = new SimpleSchema({
     mail: {
         type: String,
         label: "Email"
-    },
-    createDate: {
-      type: Date,
-      autoValue: function(){ return new Date() }
     }
 });
 
 Posts.attachSchema(Schemas.Posts);
+
+// Collections behaviours 
+Posts.timestampable();
+Posts.softRemovable();
+Posts.trackable("posts");

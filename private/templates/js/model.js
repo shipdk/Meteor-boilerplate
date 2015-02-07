@@ -31,3 +31,8 @@ if (Meteor.isServer) {
     }
   });
 }
+
+// Collections behaviours 
+Posts.timestampable();
+Posts.softRemovable();
+Posts.trackable('__modelName__');

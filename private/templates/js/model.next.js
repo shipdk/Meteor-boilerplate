@@ -25,3 +25,8 @@ if (Meteor.isServer) {
     remove : () => true
   });
 }
+
+// Collections behaviours 
+Posts.timestampable();
+Posts.softRemovable();
+Posts.trackable('__modelName__');
