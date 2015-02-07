@@ -1,4 +1,4 @@
-// { "path" : "client/modules/__moduleName__/__moduleName__.next.js" }
+// { "path" : "client/modules/__moduleName__/__moduleName__.es6.js" }
 Template['__moduleName__'].helpers({
 });
 

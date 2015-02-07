@@ -17,7 +17,7 @@
       "es6" : {
         "files" : [
           "private/templates/html/view.html",
-          "private/templates/js/view.next.js"
+          "private/templates/js/view.es6.js"
         ]
       },
       "coffee" : {
@@ -46,7 +46,7 @@
       },
       "es6" : {
         "files" : [
-          "private/templates/js/route.next.js"
+          "private/templates/js/route.es6.js"
         ]
       },
       "coffee" : {
@@ -72,8 +72,8 @@
       },
       "es6" : {
         "files" : [
-          "private/templates/js/model.next.js",
-          "private/templates/js/publication.next.js"
+          "private/templates/js/model.es6.js",
+          "private/templates/js/publication.es6.js"
         ]
       },
       "coffee" : {
@@ -101,7 +101,7 @@
       "es6" : {
         "files" : [
           "private/templates/html/module.html",
-          "private/templates/js/module.next.js",
+          "private/templates/js/module.es6.js",
           "private/templates/scss/module.scss"
         ]
       },

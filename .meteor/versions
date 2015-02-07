@@ -53,6 +53,7 @@ retry@1.0.2
 routepolicy@1.0.4
 session@1.0.5
 sewdn:collection-behaviours@0.2.0
+sharlon:6to5@0.0.1
 spacebars@1.0.5
 spacebars-compiler@1.0.4
 startup@1.0.2

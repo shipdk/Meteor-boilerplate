@@ -15,7 +15,7 @@ Startup package for Meteor.js.
 * wolves:bourbon
 * wolves:neat
 * wolves:bitters
-
+* sharlon:6to5 
 
 
 #Added Orion-Cli
@@ -83,15 +83,6 @@ https://github.com/DerMambo/wait-on-lib
 * https://github.com/gadicc/meteor-sitemaps
 * https://github.com/dburles/meteor-collection-helpers
 * https://github.com/raix/Meteor-handlebar-helpers
-* https://github.com/zimme/meteor-collection-timestampable/
-
-### ES6 support
-Installed the following in a feature branch for future work:
-* https://github.com/Benvie/harmony-collections
-
-Other installed and failed packages is as follows:
-* https://atmospherejs.com/sharlon/6to5 
-* https://atmospherejs.com/matteodem/traceur
 
 ### Admins
 * https://github.com/yogiben/meteor-admin

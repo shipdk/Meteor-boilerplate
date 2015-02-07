@@ -1,4 +1,4 @@
-// { "path" : "client/views/__viewName__/__viewName__.next.js" }
+// { "path" : "client/views/__viewName__/__viewName__.es6.js" }
 Template['__viewName__'].helpers({
 });
 

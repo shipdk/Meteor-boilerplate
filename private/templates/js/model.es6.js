@@ -1,4 +1,4 @@
-// { "path" : "models/__modelName__.next.js" }
+// { "path" : "models/__modelName__.es6.js" }
 
 export var __modelName__ = new Mongo.Collection('__modelName__');
 
