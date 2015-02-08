@@ -1,33 +1,6 @@
 {
   "generate" : {
-    "view" : {
-      "default" : {
-        "desc" : "Views, used with routes for displaying content",
-        "variables" : [
-          {
-            "name" : "viewName",
-            "desc" : "What's the name of your view?"
-          }
-        ],
-        "files" : [
-          "private/templates/html/view.html",
-          "private/templates/js/view.js"
-        ]
-      },
-      "es6" : {
-        "files" : [
-          "private/templates/html/view.html",
-          "private/templates/js/view.es6.js"
-        ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/html/view.html",
-          "private/templates/coffee/view.coffee"
-        ]
-      }
-    },
-    "routes" : {
+    "route" : {
       "default" : {
         "desc" : "Create a group of routes with Iron Router",
         "variables" : [
@@ -48,14 +21,9 @@
         "files" : [
           "private/templates/js/route.es6.js"
         ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/route.coffee"
-        ]
       }
     },
-    "model" : {
+    "collection" : {
       "default" : {
         "desc" : "Creates a new Mongo.Collection with a Collection2 Schema",
         "variables" : [
@@ -75,21 +43,15 @@
           "private/templates/js/model.es6.js",
           "private/templates/js/publication.es6.js"
         ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/model.coffee",
-          "private/templates/coffee/publication.coffee"
-        ]
       }
     },
-    "module" : {
+    "atom" : {
       "default" : {
         "desc" : "Self working components such as a searchbar or a form",
         "variables" : [
           {
             "name" : "moduleName",
-            "desc" : "What's the name of your module?"
+            "desc" : "What's the name of your atom?"
           }
         ],
         "files" : [
@@ -104,54 +66,97 @@
           "private/templates/js/module.es6.js",
           "private/templates/scss/module.scss"
         ]
-      },
-      "coffee" : {
+      }
+    },
+    "molecule" : {
+      "default" : {
+        "desc" : "Self working components such as a searchbar or a form",
+        "variables" : [
+          {
+            "name" : "moduleName",
+            "desc" : "What's the name of your molecule?"
+          }
+        ],
         "files" : [
           "private/templates/html/module.html",
-          "private/templates/coffee/module.coffee",
+          "private/templates/js/module.js",
+          "private/templates/scss/module.scss"
+        ]
+      },
+      "es6" : {
+        "files" : [
+          "private/templates/html/module.html",
+          "private/templates/js/module.es6.js",
           "private/templates/scss/module.scss"
         ]
       }
     },
-    "scss" : {
+    "organism" : {
       "default" : {
-        "desc" : "scss Stylesheet for general and additional styles",
+        "desc" : "Self working components such as a searchbar or a form",
         "variables" : [
           {
-            "name" : "stylesheetName",
-            "desc" : "What's the name of your stylesheet?"
+            "name" : "moduleName",
+            "desc" : "What's the name of your organism?"
           }
         ],
         "files" : [
-          "private/templates/scss/stylesheet.scss"
+          "private/templates/html/module.html",
+          "private/templates/js/module.js",
+          "private/templates/scss/module.scss"
+        ]
+      },
+      "es6" : {
+        "files" : [
+          "private/templates/html/module.html",
+          "private/templates/js/module.es6.js",
+          "private/templates/scss/module.scss"
         ]
       }
     },
-    "layout" : {
+    "template" : {
       "default" : {
-        "desc" : "Iron Layout template which yields your content",
+        "desc" : "Self working components such as a searchbar or a form",
         "variables" : [
           {
-            "name" : "layoutName",
-            "desc" : "What's the name of your layout?"
+            "name" : "moduleName",
+            "desc" : "What's the name of your template?"
           }
         ],
         "files" : [
-          "private/templates/html/layout.html"
+          "private/templates/html/module.html",
+          "private/templates/js/module.js",
+          "private/templates/scss/module.scss"
+        ]
+      },
+      "es6" : {
+        "files" : [
+          "private/templates/html/module.html",
+          "private/templates/js/module.es6.js",
+          "private/templates/scss/module.scss"
         ]
       }
     },
-    "common" : {
+    "page" : {
       "default" : {
-        "desc" : "Simple templates without any logic (e.g title or footer)",
+        "desc" : "Self working components such as a searchbar or a form",
         "variables" : [
           {
-            "name" : "commonViewName",
-            "desc" : "What's the name of your common view?"
+            "name" : "moduleName",
+            "desc" : "What's the name of your page?"
           }
         ],
         "files" : [
-          "private/templates/html/common.html"
+          "private/templates/html/module.html",
+          "private/templates/js/module.js",
+          "private/templates/scss/module.scss"
+        ]
+      },
+      "es6" : {
+        "files" : [
+          "private/templates/html/module.html",
+          "private/templates/js/module.es6.js",
+          "private/templates/scss/module.scss"
         ]
       }
     }
