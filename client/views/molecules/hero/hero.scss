@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    #hero
+\*------------------------------------*/
+
+@import "../../../init";
+
+.hero {
+  text-align: center;
+  margin: 40px 0;
+  h1 {
+    font-size: $base-font-size * 5;
+  }
+}
