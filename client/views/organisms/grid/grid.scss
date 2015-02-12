@@ -2,7 +2,7 @@
     #grid
 \*------------------------------------*/
 
-@import "../../../init";
+@import "../../../stylesheets/init";
 
 @mixin grid-item-columns($columns) {
   width: (100% / 12) * $columns;

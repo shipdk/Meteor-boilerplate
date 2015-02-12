@@ -1,15 +1,14 @@
-@import "init";
+@import "stylesheets/init";
 
 *,
 *:after,
 *:before {
- @include box-sizing(border-box);
- margin: 0;
- padding: 0;
+  @include box-sizing(border-box);
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
   @include outer-container;
   padding-bottom: 70px;
 }
-
