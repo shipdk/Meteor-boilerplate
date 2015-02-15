@@ -1,7 +1,7 @@
 <template name="grid">
   <div class="grid-item">
     {{> logo}}
-    <h1>{{ head }}</h1>
-    <p>{{ name }}</p>
+    {{> gridheader header=head}}
+    {{> gridauthor author=name}}
   </div>
 </template>
