@@ -1,0 +1,18 @@
+<template name="styleguide">
+<div class="editor">{{escaped2}}</div>
+    {{#each atoms}}
+      <div class="code-example">
+        {{> Template.dynamic template=this}}
+        {{this}}
+        <p>{{ escaped data=this}}</p>
+        <div class="editor">{{ escaped this}}</div>
+      </div>
+    {{/each}}
+    <div class="escaped">
+      {{escaped}}
+    </div>
+
+    <div class="editor">{{escaped}}</div>
+<br />
+    
+</template>
