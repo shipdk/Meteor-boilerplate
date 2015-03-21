@@ -16,7 +16,6 @@ iron:router
 zimme:iron-router-active
 okgrow:iron-router-autoscroll
 sewdn:collection-behaviours
-sharlon:6to5
 fastclick
 meteorhacks:fast-render
 meteorhacks:npm
@@ -24,3 +23,4 @@ meteorhacks:npm
 
 npm-container
 manuelschoebel:wait-on-lib
+grigio:babel
