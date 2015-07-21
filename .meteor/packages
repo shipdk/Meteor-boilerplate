@@ -7,9 +7,6 @@
 meteor-platform
 startup
 fourseven:scss
-wolves:bourbon
-wolves:neat
-wolves:bitters
 aldeed:collection2
 mquandalle:bower
 iron:router
