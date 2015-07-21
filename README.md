@@ -2,9 +2,8 @@ Meteor-startup-package
 ======================
 
 
-Startup package for Meteor.js. 
+Startup package for Meteor.js.
 
-> Note: Bourbon will fail after a reset. To fix this, just restart Meteor.
 
 #Installed Packages
 * aldeed:Collection2
@@ -12,12 +11,9 @@ Startup package for Meteor.js.
 * iron:router
 * zimme:iron-router-active
 * okgrow:iron-router-autoscroll
-* sewdn:collection-behaviours 
-* sharlon:6to5  
+* sewdn:collection-behaviours
+* grigio:babel
 * mquandalle:bower
-* wolves:bourbon
-* wolves:neat
-* wolves:bitters
 
 
 
@@ -72,7 +68,7 @@ https://atmospherejs.com/reywood/iron-router-ga
 * SEO:
 https://atmospherejs.com/manuelschoebel/ms-seo
 
-* "require.js-ish": 
+* "require.js-ish":
 https://github.com/DerMambo/wait-on-lib
 
 ## Considerations

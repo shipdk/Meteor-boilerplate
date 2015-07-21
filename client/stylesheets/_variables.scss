@@ -1,12 +1,7 @@
-// Neat ——————---------------------------------------------------- //
-// Change the grid settings
-$column: 90px;
-$gutter: 30px;
-$grid-columns: 12;
-$max-width: em(1088);
+// ------------------------------------ //
+//  #variables
+// ------------------------------------ //
 
-// Toggle to false to hide grid.
-$visual-grid: true;
 
 // Breakpoints ---------------------------------------------------- //
 $mq-breakpoints: (
@@ -30,33 +25,10 @@ $default-transition-delay:    false;
 
 // Typography ----------------------------------------------------- //
 
-$base-font-family: "museo-slab", Georgia, serif;
+$base-font-family: Helvetica, serif;
 $base-font-size:  16px;
 $base-line-height: 26px;
 
-// frontpage-hero:                          120/135, 900
-// frontpage-product-category:              46/55,   300
-// frontpage-map-marker:                    32/38,   900
-// frontpage-newsletter-description:        20/30,   300
-// frontpage-newsletter-button:             32/38,   900
-// frontpage-callout-percentage:            178/214, 700 italic
-// frontpage-callout-tagline:               27/32,   500
-// frontpage-callout-button:                20/24,   500
-// primary-nav:                             16/18,   700
-// secondary-nav + product lists headings:  18/22,   500
-// product-list-details:                    15/18,   300
-// product-list-price:                      15/18,   900
-// product-page-details:                    16/18,   500
-// product-page-details-subheading:         18/18,   900
-// product-page-details-price:              32/xx,   900
-// header-small:                            13/16,   300
-// h1:                                      55/xx,   900
-// h2:                                      45/54,   900
-// h3:                                      25/26,   900
-// footer-header:                           17/36,   700
-// footer-lists + footer-copyright:         15/36,   300
-// footer-heading + frontpage-heading:      65/78,   700
-// footer-large:                            32/50,   700
 
 // Colors --------------------------------------------------------- //
 // Adjust via http://hslpicker.com
