@@ -7,13 +7,18 @@ Startup package for Meteor.js.
 
 #Installed Packages
 * aldeed:Collection2
+* sewdn:collection-behaviours
 * fourseven:scss
 * iron:router
 * zimme:iron-router-active
 * okgrow:iron-router-autoscroll
-* sewdn:collection-behaviours
+* manuelschoebel:wait-on-lib
+* fastclick
+* meteorhacks:fast-render
 * grigio:babel
 * mquandalle:bower
+* meteorhacks:npm
+* meteortoys:allthings
 
 
 
@@ -68,12 +73,9 @@ https://atmospherejs.com/reywood/iron-router-ga
 * SEO:
 https://atmospherejs.com/manuelschoebel/ms-seo
 
-* "require.js-ish":
-https://github.com/DerMambo/wait-on-lib
 
 ## Considerations
 * https://github.com/matteodem/meteor-easy-security
-* https://github.com/msavin/MongoInspector
 * https://tail.sh/
 * https://github.com/meteor/meteor/tree/devel/packages/browser-policy
 * https://github.com/meteor/meteor/tree/devel/packages/appcache
