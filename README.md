@@ -23,7 +23,9 @@ Startup package for Meteor.js.
 
 
 #Added Orion-Cli
+For more about orion: https://github.com/matteodem/orion-cli
 
+###Custom cli commands
 ```bash
 $ orion generate view
 ```
