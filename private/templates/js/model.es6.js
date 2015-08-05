@@ -1,6 +1,5 @@
 // { "path" : "collections/__modelName__.es6.js" }
-
-export var __modelName__ = new Mongo.Collection('__modelName__');
+__modelName__ = new Mongo.Collection('__modelName__');
 
 __modelName__.attachSchema(
   new SimpleSchema({
@@ -26,7 +25,7 @@ if (Meteor.isServer) {
   });
 }
 
-// Collections behaviours 
-Posts.timestampable();
-Posts.softRemovable();
-Posts.trackable('__modelName__');
+// Collections behaviours
+__modelName__.timestampable();
+__modelName__.softRemovable();
+__modelName__.trackable('__modelName__');

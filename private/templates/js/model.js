@@ -32,7 +32,7 @@ if (Meteor.isServer) {
   });
 }
 
-// Collections behaviours 
-Posts.timestampable();
-Posts.softRemovable();
-Posts.trackable('__modelName__');
+// Collections behaviours
+__modelName__.timestampable();
+__modelName__.softRemovable();
+__modelName__.trackable('__modelName__');
