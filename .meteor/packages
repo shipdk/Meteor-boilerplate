@@ -4,26 +4,35 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
 
 fourseven:scss
-grigio:babel
 mquandalle:jade
 
 aldeed:collection2
 raix:handlebar-helpers
 meteortoys:allthings
 
-meteorhacks:npm
-npm-container
 mquandalle:bower
 
 iron:router
 zimme:iron-router-active
-okgrow:iron-router-autoscroll
+okgrow:router-autoscroll
 manuelschoebel:wait-on-lib
 
 sewdn:collection-behaviours
 meteorhacks:fast-render
 fastclick
-
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
