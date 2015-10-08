@@ -2,7 +2,7 @@
 __modelName__ = new Mongo.Collection('__modelName__');
 
 __modelName__.attachSchema(
-    new SimpleSchema({
+  new SimpleSchema({
     title: {
       type: String
     },
@@ -10,8 +10,7 @@ __modelName__.attachSchema(
       type: String
     },
     createdAt: {
-      type: Date,
-      denyUpdate: true
+      type: Date
     }
   })
 );
@@ -20,15 +19,9 @@ __modelName__.attachSchema(
 // Add custom permission rules if needed
 if (Meteor.isServer) {
   __modelName__.allow({
-    insert : function () {
-      return true;
-    },
-    update : function () {
-      return true;
-    },
-    remove : function () {
-      return true;
-    }
+    insert : () => true,
+    update : () => true,
+    remove : () => true
   });
 }
 

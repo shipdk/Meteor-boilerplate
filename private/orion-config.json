@@ -19,7 +19,7 @@
       },
       "es6" : {
         "files" : [
-          "private/templates/js/route.es6.js"
+          "private/templates/js/route.js"
         ]
       }
     },
@@ -40,8 +40,8 @@
       },
       "es6" : {
         "files" : [
-          "private/templates/js/model.es6.js",
-          "private/templates/js/publication.es6.js"
+          "private/templates/js/model.js",
+          "private/templates/js/publication.js"
         ]
       }
     },
@@ -63,7 +63,7 @@
       "es6" : {
         "files" : [
           "private/templates/jade/module.jade",
-          "private/templates/js/module.es6.js",
+          "private/templates/js/module.js",
           "private/templates/sass/module.sass"
         ]
       }
@@ -86,7 +86,7 @@
       "es6" : {
         "files" : [
           "private/templates/jade/module.jade",
-          "private/templates/js/module.es6.js",
+          "private/templates/js/module.js",
           "private/templates/sass/module.sass"
         ]
       }
@@ -109,7 +109,7 @@
       "es6" : {
         "files" : [
           "private/templates/jade/module.jade",
-          "private/templates/js/module.es6.js",
+          "private/templates/js/module.js",
           "private/templates/sass/module.sass"
         ]
       }
@@ -132,7 +132,7 @@
       "es6" : {
         "files" : [
           "private/templates/jade/module.jade",
-          "private/templates/js/module.es6.js",
+          "private/templates/js/module.js",
           "private/templates/sass/module.sass"
         ]
       }
@@ -155,7 +155,7 @@
       "es6" : {
         "files" : [
           "private/templates/jade/module.jade",
-          "private/templates/js/module.es6.js",
+          "private/templates/js/module.js",
           "private/templates/sass/module.sass"
         ]
       }
